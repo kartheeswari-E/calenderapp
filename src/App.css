@@ -45,8 +45,8 @@ gap:20px;
   .css-nk89i7-MuiPickersCalendarHeader-root {
     color: rgb(74, 17, 231) !important;
   }
-  body{
-    background: whitesmoke;
+  .css-xzqsgo {
+    display: none!important;
   }
   .input-box{
    margin-left: 50px;
