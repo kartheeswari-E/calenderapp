@@ -24,26 +24,26 @@ gap:20px;
 }
 .css-4pax7l-MuiPickersLayout-root {
 
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
    max-width: 450px !important;
    min-width: 500px !important;
     background-color: #ffffff !important;
-    border: 2px solid rgb(63,48,103);
-    border-radius: 5px;
+    border: 2px solid rgb(63,48,103) !important;
+    border-radius: 5px !important;
   }
   .css-1q04gal-MuiDateCalendar-root {
-    overflow: hidden;
+    overflow: hidden !important;
     width: 458px !important;
   }
   .css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-toolbar{
-    display: none;
+    display: none !important;
   }
   .css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar {
-    display: none;
+    display: none !important;
   }
   .css-nk89i7-MuiPickersCalendarHeader-root {
-    color: rgb(74, 17, 231);
+    color: rgb(74, 17, 231) !important;
   }
   body{
     background: whitesmoke;
@@ -55,7 +55,7 @@ gap:20px;
 
   }
   .css-flbe84-MuiDayCalendar-weekContainer {
-    gap:30px;
+    gap:30px !important;
   }
 .time-heading{
     font-size: 20px;
@@ -65,8 +65,8 @@ gap:20px;
 }
 
 .css-i5q14k-MuiDayCalendar-header { 
-     width: 462px;
-  gap: 30px;
+     width: 462px !important;
+  gap: 30px !important;
 }
 label{
     color: blue;
