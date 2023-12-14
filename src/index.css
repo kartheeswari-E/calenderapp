@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calender-wrap-container{
+    
+  padding: 30px;
+  z-index: -1;
+  margin-top: 70px;
+}
+span{
+  color: rgb(0 255 245);
+}
+.cal-head{
+  font-size: 25px;
+  font-weight: 800;
+   margin-bottom:20px;
+}
+.calender-container{
+  display: flex;
+gap:20px;
+ 
+}
+.input-wrap{
+  display: flex;
+  flex-direction: column;
+ width: 50%;
+}
+.css-4pax7l-MuiPickersLayout-root {
+
+  align-items: center !important;
+  justify-content: center !important;
+ max-width: 450px !important;
+ min-width: 500px !important;
+  background-color: #ffffff !important;
+  border: 2px solid rgb(63,48,103) !important;
+  border-radius: 5px !important;
+}
+.css-1q04gal-MuiDateCalendar-root {
+  overflow: hidden !important;
+  width: 458px !important;
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-toolbar{
+  display: none !important;
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar {
+  display: none !important;
+}
+.css-nk89i7-MuiPickersCalendarHeader-root {
+  color: rgb(74, 17, 231) !important;
+}
+body{
+  background: whitesmoke;
+}
+.input-box{
+ margin-left: 50px;
+ display: flex;
+ gap: 30px;
+
+}
+.css-flbe84-MuiDayCalendar-weekContainer {
+  gap:30px !important;
+}
+.time-heading{
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.css-i5q14k-MuiDayCalendar-header { 
+   width: 462px !important;
+gap: 30px !important;
+}
+label{
+  color: blue;
+  font-size: 20px;
+}
+input{
+  height: 30px;
+  width: 150px;
+}
+#row2{
+  margin-top: 20px;
+}
+#avai-add{
+  margin-top: 10px;
+}
+.more{
+ width: 50px;
+ border-radius: 5px;
+ color: white;
+ background: rgb(63,48,103);
+ text-align: center;
+ padding:5px;
+}
+.save{
+  text-align: center;
+  margin-top: 50px;
+  width: fit-content;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  margin-left: 8%;
+  background: rgb(63,48,103);
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
