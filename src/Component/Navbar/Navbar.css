@@ -1,0 +1,29 @@
+.navbar-container{
+    padding: 15px;
+    background-color: rgb(63,48,103);
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0,0,0,.2) 0 0 10px 3px;
+}
+.left{
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.rights{
+ 
+  position: absolute;
+  right:80px;
+   background: rgb(167,159,185);
+   padding: 8px;
+   width: 130px;
+   display: flex;
+  font-weight: 600;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
